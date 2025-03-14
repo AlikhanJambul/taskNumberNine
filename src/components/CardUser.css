@@ -1,0 +1,44 @@
+.card {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+
+    border-radius: 20px;
+
+    width: 100%;
+
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+  }
+
+.card__items {
+    display: flex;
+    flex-direction: row;
+}
+
+.card__avatar {
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+}
+
+.card__name {
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.card__position {
+    color: rgb(161, 161, 161);
+
+    margin-bottom: 20px;
+}
