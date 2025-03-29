@@ -1,3 +1,3 @@
-# Create card with info from fake API 
+# Create cards with info from fake API 
 
 npm run dev
